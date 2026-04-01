@@ -1,6 +1,31 @@
 
 # Projekt zaliczeniowy — NLP (magisterka)
 
+# TL;DR — zasady projektu w 10 zdaniach
+
+1. Projekt jest **indywidualny** i dotyczy dowolnego problemu z zakresu NLP.
+    
+2. Możecie użyć własnych danych albo publicznych datasetów (np. Kaggle, Hugging Face, scraping).
+    
+3. Projekt musi zawierać **prosty baseline**, który będzie punktem odniesienia.
+    
+4. Obowiązkowo porównajcie **minimum 3 warianty eksperymentu** (np. preprocessing, model, prompt, retriever).
+    
+5. Najważniejsze jest pokazanie, **jak decyzje projektowe wpływają na wynik**.
+    
+6. Dodajcie sensowną ewaluację: tabelę wyników, wykres i krótkie omówienie.
+    
+7. Pokażcie kilka przykładów błędów modelu i spróbujcie wyjaśnić, skąd się biorą.
+    
+8. Na końcu napiszcie krótkie wnioski: co pomogło, co nie działało i czego się nauczyliście.
+    
+9. Można używać gotowych modeli i LLM, ale **nie ma potrzeby ani nie zalecamy korzystania z płatnych API** — lepiej wybierać rozwiązania darmowe i reprodukowalne.
+    
+10. Oddajecie działający notebook z kodem, a oceniam głównie **eksperymenty, analizę i wnioski, a nie sam najwyższy wynik**.
+
+
+# Szczegóły
+
 ## O co chodzi?
 
 Zadanie polega na jest przygotowaniu **indywidualnego projektu NLP na dowolny temat**.
