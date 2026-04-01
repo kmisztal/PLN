@@ -286,3 +286,4 @@ To właśnie jest **dobry projekt badawczo-eksperymentalny**.
 | Implementacja modelu / pipeline | 20 |
 | Analiza wyników i błędów | 15 |
 | Jakość kodu i reprodukowalność | 10 |
+| Jeśli projekt dotyczy języka polskiego | 10 (bonus) |
