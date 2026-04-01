@@ -303,3 +303,224 @@ To właśnie jest **dobry projekt badawczo-eksperymentalny**.
 | 8 | Klasyfikacja intencji wiadomości e-mail / support tickets | 3 | **Średni** – dane trzeba znaleźć lub zbudować |
 | 9 | Porównanie prompt engineering vs fine-tuning małego modelu | 5 | **Nie** – można użyć gotowych datasetów z HF |
 | 10 | Wykrywanie halucynacji w odpowiedziach systemu RAG | 5 | **Tak** – najtrudniejsze, dane często trzeba przygotować samemu |
+
+
+# FAQ — projekt NLP
+
+## Czy mogę używać ChatGPT, modeli LLM i gotowych API?
+
+Tak, ale **nie jest to wymagane**.
+
+Możecie korzystać z:
+
+- modeli z Hugging Face
+    
+- lokalnych modeli open-source
+    
+- gotowych embeddingów
+    
+- darmowych API
+    
+- własnych modeli trenowanych od zera lub fine-tunowanych
+    
+
+**Nie ma konieczności korzystania z płatnych API** (np. OpenAI, Anthropic, Google).
+
+Wręcz **odradzamy wybieranie projektów, które wymagają ponoszenia kosztów finansowych**, ponieważ:
+
+- nie każdy ma taki sam budżet,
+    
+- utrudnia to reprodukowalność projektu,
+    
+- ogranicza możliwość ponownego uruchomienia notebooka,
+    
+- często utrudnia uczciwe porównanie eksperymentów.
+    
+
+Najbardziej polecane są rozwiązania:
+
+- lokalne
+    
+- open-source
+    
+- możliwe do odtworzenia bez dodatkowych opłat
+    
+
+---
+
+## Czy mogę zrobić projekt oparty o RAG albo chatbot?
+
+Tak.
+
+To bardzo dobry temat projektu, o ile:
+
+- porównacie kilka retrieverów lub embeddingów,
+    
+- sprawdzicie wpływ chunkingu,
+    
+- przetestujecie różne prompty,
+    
+- pokażecie typowe halucynacje i błędy,
+    
+- przeanalizujecie wpływ parametrów pipeline’u na wynik
+    
+
+Sam chatbot bez eksperymentów to za mało.
+
+---
+
+## Czy muszę trenować własny model?
+
+Nie.
+
+Możecie:
+
+- użyć modelu pretrained
+    
+- zrobić fine-tuning
+    
+- użyć sentence embeddings
+    
+- użyć modelu klasycznego
+    
+- użyć podejścia retrieval-based
+    
+- użyć zero-shot prompting
+    
+
+Najważniejsze jest **porównanie wariantów i wyciągnięcie wniosków**.
+
+---
+
+## Czy mogę użyć gotowego datasetu?
+
+Tak, i jest to najczęściej najlepszy wybór.
+
+Możecie korzystać z:
+
+- Kaggle
+    
+- Hugging Face Datasets
+    
+- UCI
+    
+- publicznych benchmarków
+    
+- własnych danych
+    
+- danych z własnego scrapingu
+    
+
+Pamiętajcie tylko, aby:
+
+- opisać źródło,
+    
+- uzasadnić wybór,
+    
+- sprawdzić jakość danych,
+    
+- pokazać preprocessing.
+    
+
+---
+
+## Czy mogę użyć gotowego notebooka z internetu?
+
+Możecie się nim inspirować, ale:
+
+> gotowy tutorial uruchomiony bez własnych zmian **nie jest projektem**.
+
+Projekt musi zawierać:
+
+- własny problem badawczy,
+    
+- baseline,
+    
+- minimum 3 eksperymenty,
+    
+- analizę błędów,
+    
+- własne wnioski.
+    
+
+---
+
+## Czy wynik metryki jest najważniejszy?
+
+Nie.
+
+Dużo ważniejsze jest:
+
+- sensowne pytanie badawcze,
+    
+- dobry baseline,
+    
+- porównanie wariantów,
+    
+- analiza błędów,
+    
+- umiejętność wyjaśnienia, **dlaczego wynik się zmienił**
+    
+
+Projekt z F1 = 0.78 i świetną analizą jest lepszy niż projekt z F1 = 0.90 bez żadnych wniosków.
+
+---
+
+## Czy można zrobić klasyfikację tekstu?
+
+Tak, oczywiście.
+
+To nadal bardzo dobry temat, ale postarajcie się wyjść poza:
+
+> „wziąłem dataset z Kaggle i puściłem BERT”.
+
+Na przykład porównajcie:
+
+- TF-IDF vs embeddings
+    
+- preprocessing vs brak preprocessingu
+    
+- klasyczny model vs transformer
+    
+- wpływ augmentacji
+    
+- balansowanie klas
+    
+
+---
+
+## Czy mogę zrobić projekt na własnych danych?
+
+Tak, i bardzo to polecamy.
+
+Własne dane często prowadzą do najciekawszych projektów, bo lepiej widać:
+
+- problemy jakości danych
+    
+- szum
+    
+- błędy anotacji
+    
+- ograniczenia modeli
+    
+
+To świetny materiał do analizy błędów.
+
+---
+
+## Co zrobić, jeśli dane okażą się słabe?
+
+To **też jest wartościowy wynik projektu**.
+
+Możecie wtedy pokazać:
+
+- jak jakość danych wpływa na model,
+    
+- które klasy są problematyczne,
+    
+- jak preprocessing pomaga lub szkodzi,
+    
+- jakie dane warto byłoby zebrać lepiej
+    
+
+W NLP bardzo często problemem nie jest model, tylko dane.
