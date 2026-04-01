@@ -287,3 +287,19 @@ To właśnie jest **dobry projekt badawczo-eksperymentalny**.
 | Analiza wyników i błędów | 15 |
 | Jakość kodu i reprodukowalność | 10 |
 | Jeśli projekt dotyczy języka polskiego | 10 (bonus) |
+
+
+# 10 przykładowych projektów 
+
+| # | Projekt | Trudność (1–5) | Problem z danymi? |
+| --- | --- | --- | --- |
+| 1 | Analiza sentymentu recenzji produktów | 1 | **Nie** – bardzo łatwe (Amazon, IMDB, Allegro, Kaggle) |
+| 2 | Wykrywanie fake newsów / clickbaitu | 2 | **Mały** – dane publiczne są dostępne, ale bywają zaszumione |
+| 3 | NER dla ofert pracy (skills, stanowiska, technologie) | 3 | **Średni** – dane łatwe do zebrania, etykiety trudniejsze |
+| 4 | Duplicate question detection (np. pytania ze StackOverflow/Quora) | 2 | **Nie** – bardzo dobre datasety publiczne |
+| 5 | Semantic search po artykułach naukowych lub dokumentach PDF | 3 | **Nie** – dane łatwe z arXiv / własnych PDF |
+| 6 | RAG chatbot odpowiadający na pytania z dokumentacji kursu | 4 | **Nie** – można użyć własnych materiałów kursowych |
+| 7 | Automatyczne streszczanie newsów lub artykułów | 4 | **Mały** – dużo datasetów, ale ewaluacja trudniejsza |
+| 8 | Klasyfikacja intencji wiadomości e-mail / support tickets | 3 | **Średni** – dane trzeba znaleźć lub zbudować |
+| 9 | Porównanie prompt engineering vs fine-tuning małego modelu | 5 | **Nie** – można użyć gotowych datasetów z HF |
+| 10 | Wykrywanie halucynacji w odpowiedziach systemu RAG | 5 | **Tak** – najtrudniejsze, dane często trzeba przygotować samemu |
